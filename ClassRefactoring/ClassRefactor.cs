@@ -42,11 +42,11 @@ namespace DeveloperSample.ClassRefactoring
         protected abstract double UnladenVelocity { get; }
         protected abstract double LadenVelocity { get; }
 
-        public virtual void ApplyLoad(SwallowLoad load)
+        public void ApplyLoad(SwallowLoad load)
         {
             Load = load;
         }
-        public virtual void RemoveLoad()
+        public void RemoveLoad()
         {
             ApplyLoad(SwallowLoad.None);
         }
