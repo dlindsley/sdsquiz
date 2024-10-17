@@ -39,8 +39,8 @@ namespace DeveloperSample.ClassRefactoring
             Load = load;
         }
 
-        protected virtual double UnladenVelocity { get; }
-        protected virtual double LadenVelocity { get; }
+        protected abstract double UnladenVelocity { get; }
+        protected abstract double LadenVelocity { get; }
 
         public virtual void ApplyLoad(SwallowLoad load)
         {
