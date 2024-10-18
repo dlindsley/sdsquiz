@@ -6,3 +6,7 @@
   max-width: 25vw;
   padding: 0 2em;
 }
+
+.Attempt-List-Main * {
+  text-align: left;
+}

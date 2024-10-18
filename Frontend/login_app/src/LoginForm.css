@@ -8,3 +8,7 @@
   background-color:lightgray;
   padding: 2em;
 }
+
+.form button {
+  margin-top: 1rem;
+}
